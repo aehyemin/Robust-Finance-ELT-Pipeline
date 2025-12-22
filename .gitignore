@@ -1,0 +1,15 @@
+# Airflow 관련
+logs/
+plugins/
+airflow.cfg
+airflow-*.err
+airflow-*.out
+
+# 프로젝트 데이터
+data/**/*.csv
+.env
+
+# Python 관련
+__pycache__/
+*.pyc
+venv/
