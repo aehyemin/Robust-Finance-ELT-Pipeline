@@ -153,7 +153,7 @@ robust-finance-dw-pipeline/
    │   ├── 00_create_schema.sql
    │   └── 01_create_raw_tables.sql
    │
-   ├── dw/                   # DW 정제 및 Upsert (Source of Truth)
+   ├── dw/                   # DW 정제 및 Upsert 
    │   ├── 01_create_dw_tables.sql
    │   ├── 02_raw_to_dw_trades_upsert.sql
        └── 03_dw_validation.sql
@@ -163,7 +163,7 @@ robust-finance-dw-pipeline/
    │   ├── 01_dw_to_fact_trades.sql
    │   └── 02_fact_aggregate.sql
    │
-   └── analysis/             # 비즈니스 분석 SQL (Read-only)
+   └── analysis/             # 비즈니스 분석 SQL
        ├── 01_user_daily_metrics.sql
        ├── 02_top_n_user_trade.sql
        └── 03_symbol_daily_trend.sql
