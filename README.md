@@ -157,7 +157,7 @@ Robust-Finance-ELT-Pipeline/
    ├── dw/                   # DW 정제 및 Upsert 
    │   ├── 01_create_dw_tables.sql
    │   ├── 02_raw_to_dw_trades_upsert.sql
-       └── 03_dw_validation.sql
+       └── 00_dw_validation.sql
    │
    ├── mart/                 # Fact / Aggregate Mart
    │   ├── 00_create_mart_tables.sql
