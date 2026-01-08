@@ -3,7 +3,7 @@ import random
 from datetime import datetime, timedelta, timezone
 import os
 
-OUTPUT_DIR="robust-finance-dw-pipeline/data"
+OUTPUT_DIR="data"
 OUTPUT_FILE=os.path.join(OUTPUT_DIR, "raw_trades.csv")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
